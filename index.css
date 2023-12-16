@@ -1,0 +1,36 @@
+
+.box-heading
+{
+	font-weight:1000;
+	font-size:20px;
+	text-align:center;
+}
+hr
+{
+	border-bottom:red solid;
+}
+
+.outer_box
+{
+	height:100px;
+	border:1px red hidden;
+	text-align:center;
+	background:white;
+}
+.inner_box
+{
+	height:100px;
+	border:green 5px hidden;
+	padding:25px;
+}
+.inner_box .inner_box1
+{
+	font-weight:1000;
+}
+@media(max-width:768px)
+{
+	.inner_box
+	{
+		background:lavender;
+	}
+}
